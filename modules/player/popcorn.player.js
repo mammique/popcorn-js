@@ -253,7 +253,7 @@
 
       // Attempt to get src from playerFn parameter
       basePlayer.src = src || "";
-      basePlayer.duration = 0;
+      basePlayer.duration = options.duration || 0;
       basePlayer.paused = true;
       basePlayer.ended = 0;
 
